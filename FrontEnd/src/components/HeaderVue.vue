@@ -20,7 +20,6 @@ export default {
   methods: {
     logout() {
       localStorage.clear();
-      this.ref.clear();
       this.$router.push({ name: "loginVue" });
     },
   },
